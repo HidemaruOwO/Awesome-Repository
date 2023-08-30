@@ -8,9 +8,9 @@
 
 ![image](https://github.com/HidemaruOwO/Awesome-Repository/assets/82384920/bf4ccddf-3eae-4fae-97f4-d2b59bec919f)
 
-## What is this ?
+## What is this?
 
-The best repository template
+Template for a better repository.
 
 </div>
 
@@ -27,7 +27,7 @@ The best repository template
 
 ## Usage 💨
 
-Use this script to run it.
+Please run this script.
 
 ```bash
 ./run.sh
@@ -35,7 +35,7 @@ Use this script to run it.
 
 ## Install 😊
 
-Use this script to run it.
+Please run this script.
 
 ```bash
 ./install.sh
@@ -50,12 +50,12 @@ mkdir build && cd build
 go build ../build.sh
 ```
 
-## Dependence 🪡
+## Dependencies 🪡
 
-To use this app, please register the following command in your path
+To use this app, register the following command in your path.
 
 -   git
 
 ## Reference ✨
 
--   [doremire/Awesome-README]([https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5](https://github.com/doremire/Awesome-README)https://github.com/doremire/Awesome-README)
+-   [doremire/Awesome-README](https://github.com/doremire/Awesome-README)
