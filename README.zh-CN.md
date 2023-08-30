@@ -8,9 +8,9 @@
 
 ![image](https://github.com/HidemaruOwO/Awesome-Repository/assets/82384920/bf4ccddf-3eae-4fae-97f4-d2b59bec919f)
 
-## 这是什么 ？
+## 这是什么？
 
-最好的存储库模板
+更好的存储库的模板。
 
 </div>
 
@@ -27,7 +27,7 @@
 
 ## 用法💨
 
-使用此脚本来运行它。
+请运行这个脚本。
 
 ```bash
 ./run.sh
@@ -35,7 +35,7 @@
 
 ## 安装😊
 
-使用此脚本来运行它。
+请运行这个脚本。
 
 ```bash
 ./install.sh
@@ -50,12 +50,12 @@ mkdir build && cd build
 go build ../build.sh
 ```
 
-## Dependence 🪡
+## 依赖关系🪡
 
-要使用此应用程序，请在您的路径中注册以下命令
+要使用此应用程序，请在您的路径中注册以下命令。
 
 -   git
 
-## 参考✨
+## Reference ✨
 
--   [doremire/Awesome-自述文件]([https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5](https://github.com/doremire/Awesome-README)https://github.com/doremire/Awesome-README)
+-   [doremire/Awesome-自述文件](https://github.com/doremire/Awesome-README)
