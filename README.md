@@ -25,7 +25,7 @@ The best repository template
   <thead>
     <tr>
       <th style="text-align:center"><a href="README.md">🎌日本語</a></th>
-      <th style="text-align:center"><a href="docs/readme/README.en.md">🤡English</a></th>
+      <th style="text-align:center"><a href="README.en.md">🤡English</a></th>
     </tr>
   </thead>
 </table>
