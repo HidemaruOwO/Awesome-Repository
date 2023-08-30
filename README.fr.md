@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Repository 🎨
+# Super référentiel 🎨
 
 <!-- s;HidemaruOwO/Awesome-Repository;User/Repository;g -->
 
@@ -8,9 +8,9 @@
 
 ![image](https://github.com/HidemaruOwO/Awesome-Repository/assets/82384920/bf4ccddf-3eae-4fae-97f4-d2b59bec919f)
 
-## Qu'est-ce que c'est ?
+## Qu'est-ce que c'est?
 
-Le meilleur modèle de référentiel
+Modèle pour un meilleur référentiel.
 
 </div>
 
@@ -27,7 +27,7 @@ Le meilleur modèle de référentiel
 
 ## Usage 💨
 
-Utilisez ce script pour l'exécuter.
+Veuillez exécuter ce script.
 
 ```bash
 ./run.sh
@@ -35,7 +35,7 @@ Utilisez ce script pour l'exécuter.
 
 ## Installer 😊
 
-Utilisez ce script pour l'exécuter.
+Veuillez exécuter ce script.
 
 ```bash
 ./install.sh
@@ -50,12 +50,12 @@ mkdir build && cd build
 go build ../build.sh
 ```
 
-## Dépendance 🪡
+## Dépendances 🪡
 
-Pour utiliser cette application, veuillez enregistrer la commande suivante dans votre chemin
+Pour utiliser cette application, enregistrez la commande suivante dans votre chemin.
 
 -   git
 
 ## Référence ✨
 
--   [doremire/Génial-README]([https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5](https://github.com/doremire/Awesome-README)https://github.com/doremire/Awesome-README)
+-   [doremire/Génial-README](https://github.com/doremire/Awesome-README)
