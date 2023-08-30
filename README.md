@@ -13,9 +13,9 @@
 
 ![image](https://github.com/HidemaruOwO/Awesome-Repository/assets/82384920/bf4ccddf-3eae-4fae-97f4-d2b59bec919f)
 
-## What is this ?
+## なんだこれは？
 
-The best repository template
+より素晴らしいリポジトリのテンプレートです。
 
 </div>
 
@@ -32,7 +32,7 @@ The best repository template
 
 ## Usage 💨
 
-Use this script to run it.
+このスクリプトを実行してください。
 
 ```bash
 ./run.sh
@@ -40,7 +40,7 @@ Use this script to run it.
 
 ## Install 😊
 
-Use this script to run it.
+このスクリプトを実行してください。
 
 ```bash
 ./install.sh
@@ -55,12 +55,12 @@ mkdir build && cd build
 go build ../build.sh
 ```
 
-## Dependence 🪡
+## Dependencies 🪡
 
-To use this app, please register the following command in your path
+このアプリを使用するには、以下のコマンドをパスに登録してください。
 
 - git
 
 ## Reference ✨
 
-- [doremire/Awesome-README]([https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5](https://github.com/doremire/Awesome-README)https://github.com/doremire/Awesome-README)
+- [doremire/Awesome-README](https://github.com/doremire/Awesome-README)
