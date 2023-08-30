@@ -5,6 +5,9 @@ on:
     branches:
       - unko
       - master
+    paths:
+      - '.github/workflows/translate-readme.yml'
+      - 'README.md'
 jobs:
   build:
     runs-on: ubuntu-latest
