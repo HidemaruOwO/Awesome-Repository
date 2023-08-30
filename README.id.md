@@ -8,13 +8,13 @@
 
 ![image](https://github.com/HidemaruOwO/Awesome-Repository/assets/82384920/bf4ccddf-3eae-4fae-97f4-d2b59bec919f)
 
-## Apa ini ?
+## Apa ini?
 
-Templat repositori terbaik
+Templat untuk repositori yang lebih baik.
 
 </div>
 
--   Pilih bahasa
+-   Select Language
 
 <table>
   <thead>
@@ -27,7 +27,7 @@ Templat repositori terbaik
 
 ## Penggunaan 💨
 
-Gunakan skrip ini untuk menjalankannya.
+Silakan jalankan skrip ini.
 
 ```bash
 ./run.sh
@@ -35,7 +35,7 @@ Gunakan skrip ini untuk menjalankannya.
 
 ## Instal 😊
 
-Gunakan skrip ini untuk menjalankannya.
+Silakan jalankan skrip ini.
 
 ```bash
 ./install.sh
@@ -52,10 +52,10 @@ go build ../build.sh
 
 ## Ketergantungan 🪡
 
-Untuk menggunakan aplikasi ini, silakan daftarkan perintah berikut di jalur Anda
+Untuk menggunakan aplikasi ini, daftarkan perintah berikut di jalur Anda.
 
 -   git
 
 ## Referensi ✨
 
--   [doremire/Luar Biasa-README]([https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5](https://github.com/doremire/Awesome-README)https://github.com/doremire/Awesome-README)
+-   [doremire/Luar Biasa-README](https://github.com/doremire/Awesome-README)
