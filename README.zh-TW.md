@@ -8,9 +8,9 @@
 
 ![image](https://github.com/HidemaruOwO/Awesome-Repository/assets/82384920/bf4ccddf-3eae-4fae-97f4-d2b59bec919f)
 
-## 這是什麼 ？
+## 這是什麼？
 
-最好的存儲庫模板
+更好的存儲庫的模板。
 
 </div>
 
@@ -25,9 +25,9 @@
   </thead>
 </table>
 
-## Usage 💨
+## 用法💨
 
-使用此腳本來運行它。
+請運行這個腳本。
 
 ```bash
 ./run.sh
@@ -35,7 +35,7 @@
 
 ## 安裝😊
 
-使用此腳本來運行它。
+請運行這個腳本。
 
 ```bash
 ./install.sh
@@ -50,12 +50,12 @@ mkdir build && cd build
 go build ../build.sh
 ```
 
-## 依賴🪡
+## 依賴關係🪡
 
-要使用此應用程序，請在您的路徑中註冊以下命令
+要使用此應用程序，請在您的路徑中註冊以下命令。
 
 -   git
 
 ## 參考✨
 
--   [doremire/Awesome-自述文件]([https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5](https://github.com/doremire/Awesome-README)https://github.com/doremire/Awesome-README)
+-   [doremire/Awesome-自述文件](https://github.com/doremire/Awesome-README)
