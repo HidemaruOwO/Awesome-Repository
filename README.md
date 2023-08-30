@@ -26,6 +26,8 @@
     <tr>
       <th style="text-align:center"><a href="README.md">🎌日本語</a></th>
       <th style="text-align:center"><a href="README.en.md">🤡English</a></th>
+      <th style="text-align:center"><a href="README.zh-CN.md">🐉简体中文</a></th>
+      <th style="text-align:center"><a href="README.zh-TW.md">🍜繁体中文</a></th>
     </tr>
   </thead>
 </table>

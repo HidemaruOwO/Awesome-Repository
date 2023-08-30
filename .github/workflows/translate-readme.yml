@@ -26,23 +26,7 @@ jobs:
         uses: dephraiim/translate-readme@main
         with:
           LANG: zh-TW
-      - name: Adding README - French
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: fr
       - name: Adding README - English
         uses: dephraiim/translate-readme@main
         with:
           LANG: en
-      - name: Adding README - Hangle
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: ko
-      - name: Adding README - Russia
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: ru
-      - name: Adding README - India
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: id
