@@ -8,9 +8,9 @@
 
 ![image](https://github.com/HidemaruOwO/Awesome-Repository/assets/82384920/bf4ccddf-3eae-4fae-97f4-d2b59bec919f)
 
-## 이게 뭔가요 ?
+## 이게 뭐야?
 
-The best repository template
+더 멋진 저장소 템플릿입니다.
 
 </div>
 
@@ -27,7 +27,7 @@ The best repository template
 
 ## 사용법 💨
 
-이 스크립트를 사용하여 실행하세요.
+이 스크립트를 실행하십시오.
 
 ```bash
 ./run.sh
@@ -35,7 +35,7 @@ The best repository template
 
 ## 설치 😊
 
-이 스크립트를 사용하여 실행하세요.
+이 스크립트를 실행하십시오.
 
 ```bash
 ./install.sh
@@ -50,12 +50,12 @@ mkdir build && cd build
 go build ../build.sh
 ```
 
-## 의존 🪡
+## 종속성 🪡
 
-이 앱을 사용하려면 경로에 다음 명령을 등록하십시오.
+이 앱을 사용하려면 다음 명령을 경로에 등록하십시오.
 
 -   자식
 
 ## 참고 ✨
 
--   [doremire/Awesome-README]([https://qiita.com/Jung0/items/0a9a7a97a2c17f92d3c5](https://github.com/doremire/Awesome-README)https://github.com/doremire/Awesome-README)
+-   [doremire/Awesome-README](https://github.com/doremire/Awesome-README)
