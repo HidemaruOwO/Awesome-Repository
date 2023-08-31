@@ -59,6 +59,25 @@ To use this app, register the following command in your path.
 
 -   `git`
 
+## Repository Tools 🔧
+
+-   [ ] Dependabot setup
+-   [ ] Setting up CodeQL
+-   [ ] GPTPR setup (repository`Secret Value`To`OPENAI_API_KEY`settings of)
+
+<details>
+<summary>メモ</summary>
+
+-   Dependabot setup
+-   -   <https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449>
+-   -   <https://blog.dalt.me/3354>
+-   Setting up CodeQL
+-   -   [対応言語](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+-   GPT PR setup
+-   -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+
+</details>
+
 ## Reference ✨
 
 -   [doremire/Awesome-README](https://github.com/doremire/Awesome-README)
