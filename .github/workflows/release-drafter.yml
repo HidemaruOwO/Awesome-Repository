@@ -1,0 +1,29 @@
+# Referrence: https://qiita.com/shun198/items/176037432f7efc8fde26
+
+name: Create Release Note
+
+on:
+  pull_request:
+    # PRが閉じたタイミングで実行
+    types:
+      - closed
+    # mainブランチのみを対象とする
+    branches:
+      - main
+      - unko
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    permissions:
+      # リリースノートを書くためwrite用のpermissionを付与
+      pull-requests: write
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: release-drafter/release-drafter@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
