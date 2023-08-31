@@ -59,6 +59,25 @@ go build ../build.sh
 
 -   `git`
 
+## 存儲庫工具🔧
+
+-   [ ] 設置 Dependabot
+-   [ ] 設置 CodeQL
+-   [ ] GPTPR 設置（存儲庫`Secret Value`到`OPENAI_API_KEY`的設置）
+
+<details>
+<summary>メモ</summary>
+
+-   設置 Dependabot
+-   -   <https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449>
+-   -   <https://blog.dalt.me/3354>
+-   設置 CodeQL
+-   -   [支持的語言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+-   GPT PR 設置
+-   -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+
+</details>
+
 ## 參考✨
 
 -   [doremire/Awesome-自述文件](https://github.com/doremire/Awesome-README)
