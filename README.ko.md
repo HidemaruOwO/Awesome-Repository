@@ -36,7 +36,7 @@
 ./run.sh
 ```
 
-## Install 😊
+## 설치 😊
 
 이 스크립트를 실행하십시오.
 
@@ -61,20 +61,21 @@ go build ../build.sh
 
 ## 저장소 도구 🔧
 
--   [ ] Depandabotのセットアップ
+-   [ ] Dependabot 설정
 -   [ ] CodeQL 설정
--   [ ] GPTPR 설정 (리포지토리`Secret Value`에`OPENAI_API_KEY`の設定)
+-   [ ] ChatGPT Code Review 설정
 
 <details>
 <summary>メモ</summary>
 
 -   Dependabot 설정
--   -   <https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449>
--   -   <https://blog.dalt.me/3354>
+    -   `.github/dependabot.yml`의`package-ecosystem`에 값 설정(예: npm,yarn,pip)
 -   CodeQL 설정
--   -   [대응 언어](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+    -   <https://dev.classmethod.jp/articles/github-code-scanning/>
+    -   [대응 언어](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
 -   GPT PR 설정
--   -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+    -   리포지토리`Secret Value`에`OPENAI_API_KEY`설정
+    -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
 
 </details>
 
