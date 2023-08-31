@@ -61,20 +61,21 @@ go build ../build.sh
 
 ## 存儲庫工具🔧
 
--   [ ] 設置 Dependabot
+-   [ ] Dependabot 設置
 -   [ ] 設置 CodeQL
--   [ ] GPTPR 設置（存儲庫`Secret Value`到`OPENAI_API_KEY`的設置）
+-   [ ] ChatGPT Code Reviewのセットアップ
 
 <details>
 <summary>メモ</summary>
 
--   設置 Dependabot
--   -   <https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449>
--   -   <https://blog.dalt.me/3354>
+-   Dependabot 設置
+    -   `.github/dependabot.yml`的`package-ecosystem`將值設置為（例如npm，yarn，pip）
 -   設置 CodeQL
--   -   [支持的語言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+    -   <https://dev.classmethod.jp/articles/github-code-scanning/>
+    -   [支持的語言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
 -   GPT PR 設置
--   -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+    -   存儲庫的`Secret Value`到`OPENAI_API_KEY`的設置
+    -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
 
 </details>
 
