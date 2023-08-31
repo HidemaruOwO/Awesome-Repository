@@ -23,6 +23,7 @@
       <th style="text-align:center"><a href="README.en.md">🤡English</a></th>
       <th style="text-align:center"><a href="README.zh-CN.md">🐉简体中文</a></th>
       <th style="text-align:center"><a href="README.zh-TW.md">🍜繁体中文</a></th>
+      <th style="text-align:center"><a href="README.ko.md">🌸한국어</a></th>
     </tr>
   </thead>
 </table>
@@ -37,7 +38,7 @@
 
 ## 安裝😊
 
-このスクリプトを実行してください。
+請運行這個腳本。
 
 ```bash
 ./install.sh
@@ -54,7 +55,7 @@ go build ../build.sh
 
 ## 依賴關係🪡
 
-このアプリを使用するには、以下のコマンドをパスに登録してください。
+要使用此應用程序，請在您的路徑中註冊以下命令。
 
 -   git
 
