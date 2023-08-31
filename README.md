@@ -62,7 +62,7 @@ go build ../build.sh
 
 このアプリを使用するには、以下のコマンドをパスに登録してください。
 
-- git
+- `git`
 
 ## Reference ✨
 
