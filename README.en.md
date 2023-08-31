@@ -23,6 +23,7 @@ Template for a better repository.
       <th style="text-align:center"><a href="README.en.md">🤡English</a></th>
       <th style="text-align:center"><a href="README.zh-CN.md">🐉简体中文</a></th>
       <th style="text-align:center"><a href="README.zh-TW.md">🍜繁体中文</a></th>
+      <th style="text-align:center"><a href="README.ko.md">🌸한국어</a></th>
     </tr>
   </thead>
 </table>
