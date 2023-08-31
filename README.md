@@ -64,6 +64,25 @@ go build ../build.sh
 
 - `git`
 
+## Repository Tools 🔧
+
+- [ ] Depandabotのセットアップ
+- [ ] CodeQLのセットアップ
+- [ ] GPTPRのセットアップ (リポジトリの`Secret Value`に`OPENAI_API_KEY`の設定)
+
+<details>
+<summary>メモ</summary>
+
+- Depandabotのセットアップ
+- - https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449
+- - https://blog.dalt.me/3354
+- CodeQLのセットアップ
+- - [対応言語](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+- GPT PRのセットアップ
+- - https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md
+
+</details>
+
 ## Reference ✨
 
 - [doremire/Awesome-README](https://github.com/doremire/Awesome-README)
