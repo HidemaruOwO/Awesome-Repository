@@ -36,7 +36,7 @@
 ./run.sh
 ```
 
-## 설치 😊
+## Install 😊
 
 이 스크립트를 실행하십시오.
 
@@ -58,6 +58,25 @@ go build ../build.sh
 이 앱을 사용하려면 다음 명령을 경로에 등록하십시오.
 
 -   `git`
+
+## 저장소 도구 🔧
+
+-   [ ] Depandabotのセットアップ
+-   [ ] CodeQL 설정
+-   [ ] GPTPR 설정 (리포지토리`Secret Value`에`OPENAI_API_KEY`の設定)
+
+<details>
+<summary>メモ</summary>
+
+-   Dependabot 설정
+-   -   <https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449>
+-   -   <https://blog.dalt.me/3354>
+-   CodeQL 설정
+-   -   [대응 언어](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+-   GPT PR 설정
+-   -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+
+</details>
 
 ## 참고 ✨
 
