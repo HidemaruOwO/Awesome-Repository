@@ -3,6 +3,8 @@ name: Actionlint
 on:
   push:
     branches: [ main, unko ]
+    paths:
+      - '.github/workflows/*'
   pull_request:
 
 jobs:
