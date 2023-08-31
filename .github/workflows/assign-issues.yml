@@ -2,7 +2,6 @@ name: Assign author Issues
 on:
   issues:
     types: [opened]
-name: Issues
 jobs:
   assignAuthor:
     name: Assign author to issue
