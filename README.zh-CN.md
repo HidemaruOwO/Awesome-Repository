@@ -59,6 +59,25 @@ go build ../build.sh
 
 -   `git`
 
+## 存储库工具🔧
+
+-   [ ] Dependabot 设置
+-   [ ] 设置 CodeQL
+-   [ ] GPTPR 设置（存储库`Secret Value`到`OPENAI_API_KEY`的设置）
+
+<details>
+<summary>メモ</summary>
+
+-   设置 Dependabot
+-   -   [HTTPS://期I他.com/P-满\_Brown/items/808啊8从3发8处罚法83啊2449](https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449)
+-   -   [HTTPS://blog.大乐透.么/3354](https://blog.dalt.me/3354)
+-   设置 CodeQL
+-   -   [支持的语言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+-   GPT PR 设置
+-   -   [HTTPS://GitHub.com/按此95/chat GPT-co的review/blob/卖弄/readme.急啊.面对](https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md)
+
+</details>
+
 ## 参考✨
 
 -   [doremire/Awesome-自述文件](https://github.com/doremire/Awesome-README)
