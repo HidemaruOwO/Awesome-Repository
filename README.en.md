@@ -30,7 +30,7 @@ Template for a better repository.
 
 ## Usage 💨
 
-Please run this script.
+このスクリプトを実行してください。
 
 ```bash
 ./run.sh
@@ -38,7 +38,7 @@ Please run this script.
 
 ## Install 😊
 
-Please run this script.
+このスクリプトを実行してください。
 
 ```bash
 ./install.sh
@@ -63,18 +63,19 @@ To use this app, register the following command in your path.
 
 -   [ ] Dependabot setup
 -   [ ] Setting up CodeQL
--   [ ] GPTPR setup (repository`Secret Value`To`OPENAI_API_KEY`settings of)
+-   [ ] Setting up ChatGPT Code Review
 
 <details>
 <summary>メモ</summary>
 
 -   Dependabot setup
--   -   <https://qiita.com/P-man_Brown/items/808a8c3f8cffa83a2449>
--   -   <https://blog.dalt.me/3354>
+    -   `.github/dependabot.yml`of`package-ecosystem`set values ​​to (e.g. npm,yarn,pip)
 -   Setting up CodeQL
--   -   [対応言語](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+    -   <https://dev.classmethod.jp/articles/github-code-scanning/>
+    -   [対応言語](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
 -   GPT PR setup
--   -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+    -   of the repository`Secret Value`に`OPENAI_API_KEY`settings of
+    -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
 
 </details>
 
