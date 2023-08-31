@@ -57,7 +57,7 @@ go build ../build.sh
 
 To use this app, register the following command in your path.
 
--   git
+-   `git`
 
 ## Reference ✨
 
