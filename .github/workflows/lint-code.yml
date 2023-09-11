@@ -17,8 +17,9 @@ jobs:
         with:
           fetch-depth: 0
       - name: Extract branch name
-        shell: bash
+        # actionlint ignore=SC2086
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        shell: bash
         id: extract_branch
       - name: Setup
         run: echo "Set up your programing language here."
@@ -36,6 +37,7 @@ jobs:
       - run: git stash pop || true
 
       - name: Commit
+        # actionlint ignore=SC2015
         run: git add -u && git commit -m '👀 Format Code' || true
 
       - name: Push
