@@ -117,7 +117,7 @@ gitGraph
 
 原則として`develop`ブランチに直接コミットしないでください。
 
-このブランチは以下の方法で可能です。
+このブランチは以下の方法で作成可能です。
 
 ```bash
 git checkout -b develop master
@@ -138,7 +138,7 @@ git push --set-upstream origin develop
 
 `hotfix`ブランチは`master`ブランチにてすでに提供されているコードに早急に直すべきバグ及び脆弱性などが見つかった場合に作成及び使用するブランチです。
 
-このブランチは以下の方法で可能です。
+このブランチは以下の方法で作成可能です。
 
 ```bash
 git checkout -b hotfix/feat-name master
@@ -160,7 +160,7 @@ git push --set-upstream origin hotfix/feat-name
 
 `feature`ブランチは新機能を作成する場合に作成及び使用するブランチです。
 
-このブランチは以下の方法で可能です。
+このブランチは以下の方法で作成可能です。
 
 ```bash
 git checkout -b feature/feat-name develop
@@ -182,7 +182,7 @@ git push --set-upstream origin feature/feat-name
 
 `fix`ブランチはバグや脆弱性などを修正する場合に作成及び使用するブランチです。
 
-このブランチは以下の方法で可能です。
+このブランチは以下の方法で作成可能です。
 
 ```bash
 git checkout -b fix/feat-name develop
@@ -204,7 +204,7 @@ git push --set-upstream origin fix/feat-name
 
 `test`ブランチは機能をテストする場合に作成及び使用するブランチです。
 
-このブランチは以下の方法で可能です。
+このブランチは以下の方法で作成可能です。
 
 ```bash
 git checkout -b test/feat-name develop
@@ -226,7 +226,7 @@ git push --set-upstream origin test/feat-name
 
 `docs`ブランチはドキュメントを編集及び追加する場合に作成及び使用するブランチです。
 
-このブランチは以下の方法で可能です。
+このブランチは以下の方法で作成可能です。
 
 ```bash
 git checkout -b docs/feat-name develop
