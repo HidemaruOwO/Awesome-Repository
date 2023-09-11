@@ -11,6 +11,6 @@
 
 ## チェックリスト
 
-- [ ] 当該Pull Requestsのコミットは[コントリービュートガイド](docs/branch.md)に従って作成されています。
+- [ ] 当該Pull Requestsのコミットは[コントリービュートガイド](https://github.com/HidemaruOwO/Awesome-Repository/tree/master/docs)に従って作成されています。
 - [ ] 当該Pull Requestsは一意であり、これらの変更に対して他のPull Requestsは開かれていません
 - [ ] 将来的に当該Pull Requestsのコードに著作権の問題が発生した場合、当該Pull Requests作成者は責任を負います。
