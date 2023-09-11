@@ -117,6 +117,18 @@ gitGraph
 
 原則として`develop`ブランチに直接コミットしないでください。
 
+このブランチは以下の方法で作成できます。
+
+```bash
+git checkout -b develop master
+```
+
+作成後リモートにプッシュしてください。
+
+```bash
+git checkout develop master
+```
+
 このブランチは`feature`及び`fix`及び`test`及び`docs`及び`refactor`ブランチからPull Requestsを通してマージされます。  
 このブランチには追加及び変更した機能が動作する状態でマージしてください。
 
