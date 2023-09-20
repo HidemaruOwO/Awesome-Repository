@@ -10,7 +10,7 @@
 
 ## What is this?
 
-Template for a better repository.
+More awesome repository templates.
 
 </div>
 
@@ -55,33 +55,29 @@ go build ../build.sh
 
 ## Dependencies 🪡
 
-To use this app, register the following command in your path.
+To use this app, please register the following command in your path.
 
 -   `git`
 
 ## Repository Tools 🔧
 
 -   [ ] Dependabot setup
--   [ ] Setting up CodeQL
--   [ ] Setting up ChatGPT Code Review
+-   [ ] CodeQL setup
 
 <details>
 <summary>メモ</summary>
 
 -   Dependabot setup
-    -   `.github/dependabot.yml`of`package-ecosystem`set values ​​to (e.g. npm,yarn,pip)
--   Setting up CodeQL
+    -   `.github/dependabot.yml`of`package-ecosystem`Set the value to (e.g. npm,yarn,pip)
+-   CodeQL setup
     -   <https://dev.classmethod.jp/articles/github-code-scanning/>
-    -   [supported language](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
--   GPT PR setup
-    -   of the repository`Secret Value`To`OPENAI_API_KEY`settings of
-    -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+    -   [対応言語](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
 
 </details>
 
 ## For Contributor 🤝
 
-To contribute to this project[Contribution guide](docs/README.md)Please read.
+If you would like to contribute to this project,[Contribution guide](docs/README.md)Please read.
 
 ## Reference ✨
 

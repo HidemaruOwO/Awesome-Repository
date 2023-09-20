@@ -10,7 +10,7 @@
 
 ## 这是什么？
 
-更好的存储库的模板。
+更多精彩的存储库模板。
 
 </div>
 
@@ -62,26 +62,22 @@ go build ../build.sh
 ## 存储库工具🔧
 
 -   [ ] Dependabot 设置
--   [ ] 设置 CodeQL
--   [ ] ChatGPT Code Reviewのセットアップ
+-   [ ] CodeQL 设置
 
 <details>
 <summary>メモ</summary>
 
 -   Dependabot 设置
-    -   `.github/dependabot.yml`的`package-ecosystem`将值设置为（例如npm，yarn，pip）
--   设置 CodeQL
+    -   `.github/dependabot.yml`的`package-ecosystem`将值设置为（例如 npm、yarn、pip）
+-   CodeQL 设置
     -   <https://dev.classmethod.jp/articles/github-code-scanning/>
     -   [支持的语言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
--   GPT PR 设置
-    -   存储库的`Secret Value`到`OPENAI_API_KEY`的设置
-    -   [HTTPS://GitHub.com/按此95/chat GPT-co的review/blob/卖弄/readme.急啊.面对](https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md)
 
 </details>
 
 ## 对于贡献者🤝
 
-为这个项目做出贡献[投稿指南](docs/README.md)请阅读。
+如果您想为这个项目做出贡献，[投稿指南](docs/README.md)请阅读。
 
 ## 参考✨
 

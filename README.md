@@ -68,7 +68,6 @@ go build ../build.sh
 
 - [ ] Depandabotのセットアップ
 - [ ] CodeQLのセットアップ
-- [ ] ChatGPT Code Reviewのセットアップ
 
 <details>
 <summary>メモ</summary>
@@ -78,9 +77,6 @@ go build ../build.sh
 - CodeQLのセットアップ
   - https://dev.classmethod.jp/articles/github-code-scanning/
   - [対応言語](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
-- GPT PRのセットアップ
-  - リポジトリの`Secret Value`に`OPENAI_API_KEY`の設定
-  - https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md
 
 </details>
 

@@ -63,7 +63,6 @@ go build ../build.sh
 
 -   [ ] Dependabot 설정
 -   [ ] CodeQL 설정
--   [ ] ChatGPT Code Review 설정
 
 <details>
 <summary>メモ</summary>
@@ -73,15 +72,12 @@ go build ../build.sh
 -   CodeQL 설정
     -   <https://dev.classmethod.jp/articles/github-code-scanning/>
     -   [대응 언어](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
--   GPT PR 설정
-    -   리포지토리`Secret Value`에`OPENAI_API_KEY`설정
-    -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
 
 </details>
 
 ## 기여자용 🤝
 
-이 프로젝트에 컨트리뷰트하는 경우는[컨트리 뷰트 가이드](docs/README.md)をお読みください。
+이 프로젝트에 컨트리뷰트하는 경우는[컨트리뷰트 가이드](docs/README.md)를 읽으십시오.
 
 ## 참고 ✨
 
