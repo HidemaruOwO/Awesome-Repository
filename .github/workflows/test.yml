@@ -15,6 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Test
+        id: test
         run: |
           echo "Write Test here"
           exit 1
@@ -26,4 +27,4 @@ jobs:
           state: success
       - name: fail
         uses: Sibz/action-always-fail@v1.0.1
-        if: steps.stepId.outputs.result != 'failure'
+        if: steps.test.outputs.result != 'failure'
