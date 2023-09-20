@@ -3,6 +3,8 @@ name: Test CLI
 on:
   push:
 
+permissions:
+  statuses: write
 
 jobs:
   test:
