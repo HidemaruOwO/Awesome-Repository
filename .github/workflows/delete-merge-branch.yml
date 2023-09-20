@@ -1,8 +1,12 @@
 name: delete branch on close pr
-on: 
+on:
   pull_request:
     types: [closed]
-  
+
+permissions:
+  contents: write
+  repository-projects: write
+
 jobs:
   delete-branch:
     runs-on: ubuntu-latest
