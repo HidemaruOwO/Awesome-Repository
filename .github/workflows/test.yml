@@ -23,17 +23,16 @@ jobs:
       - name: Test Result
         run: |
           echo ${{ steps.test_step.outcome }}
-          echo ${{ steps.test_step.outputs.result }}
       - name: Set Check Status Success
         uses: Sibz/github-status-action@v1
-        if: success() && steps.test_step.outputs.result == 'success'
+        if: steps.test_step.outcome == 'success'
         with:
           context: test-status
           authToken: ${{ secrets.GITHUB_TOKEN }}
           state: success
       - name: Set Check Status Failure
         uses: Sibz/github-status-action@v1
-        if: failure() && steps.test_step.outcome == 'failure'
+        if: steps.test_step.outcome == 'failure'
         with:
           context: test-status
           authToken: ${{ secrets.GITHUB_TOKEN }}
@@ -41,4 +40,4 @@ jobs:
 
       - name: Fail
         uses: Sibz/action-always-fail@v1.0.1
-        if: failure() && steps.test_step.outcome == 'failure'
+        if: steps.test_step.outcome == 'failure'
