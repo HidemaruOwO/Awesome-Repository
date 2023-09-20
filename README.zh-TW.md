@@ -10,7 +10,7 @@
 
 ## 這是什麼？
 
-更好的存儲庫的模板。
+更多精彩的儲存庫範本。
 
 </div>
 
@@ -44,7 +44,7 @@
 ./install.sh
 ```
 
-## 構建🔨
+## 建構🔨
 
 ```bash
 git clone https://github.com/HidemaruOwO/Awesome-Repository.git
@@ -53,36 +53,32 @@ mkdir build && cd build
 go build ../build.sh
 ```
 
-## Dependencies 🪡
+## 依賴關係🪡
 
 要使用此應用程序，請在您的路徑中註冊以下命令。
 
 -   `git`
 
-## 存儲庫工具🔧
+## 儲存庫工具🔧
 
--   [ ] 設置 Dependabot
--   [ ] 設置 CodeQL
--   [ ] 設置 ChatGPT 代碼審查
+-   [ ] Dependabot 設定
+-   [ ] CodeQL 設定
 
 <details>
 <summary>メモ</summary>
 
--   設置 Dependabot
-    -   `.github/dependabot.yml`的`package-ecosystem`將值設置為（例如npm，yarn，pip）
--   設置 CodeQL
+-   Dependabot 設定
+    -   `.github/dependabot.yml`的`package-ecosystem`將值設為（例如 npm、yarn、pip）
+-   CodeQL 設定
     -   <https://dev.classmethod.jp/articles/github-code-scanning/>
-    -   [支持的語言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
--   GPT PR 設置
-    -   存儲庫的`Secret Value`到`OPENAI_API_KEY`的設置
-    -   <https://github.com/anc95/ChatGPT-CodeReview/blob/main/README.ja.md>
+    -   [支援的語言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
 
 </details>
 
 ## 對於貢獻者🤝
 
-為這個項目做出貢獻[投稿指南](docs/README.md)請閱讀。
+如果您想為這個專案做出貢獻，[投稿指南](docs/README.md)請閱讀。
 
-## Reference ✨
+## 參考✨
 
 -   [doremire/Awesome-自述文件](https://github.com/doremire/Awesome-README)
