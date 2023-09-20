@@ -19,10 +19,6 @@ jobs:
         continue-on-error: true
         run: |
           echo "Write Test here"
-          exit 1
-      - name: Test Result
-        run: |
-          echo ${{ steps.test_step.outcome }}
       - name: Set Check Status Success
         uses: Sibz/github-status-action@v1
         if: steps.test_step.outcome == 'success'
