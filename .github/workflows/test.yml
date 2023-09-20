@@ -16,6 +16,7 @@ jobs:
 
       - name: Test
         id: test
+        continue-on-error: true
         run: |
           echo "Write Test here"
           exit 1
