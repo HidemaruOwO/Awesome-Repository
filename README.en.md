@@ -71,7 +71,7 @@ To use this app, please register the following command in your path.
     -   `.github/dependabot.yml`of`package-ecosystem`Set the value to (e.g. npm,yarn,pip)
 -   CodeQL setup
     -   <https://dev.classmethod.jp/articles/github-code-scanning/>
-    -   [対応言語](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
+    -   [supported language](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
 
 </details>
 

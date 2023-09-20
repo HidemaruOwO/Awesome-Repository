@@ -1,4 +1,4 @@
-# Referrence: https://qiita.com/shun198/items/176037432f7efc8fde26
+# Reference: https://qiita.com/shun198/items/176037432f7efc8fde26
 
 name: Create Release Note
 
@@ -10,7 +10,9 @@ on:
       - develop
 
 permissions:
-  contents: read
+  contents: write
+  repository-projects: write
+  actions: write
 
 jobs:
   release:
@@ -22,4 +24,3 @@ jobs:
       - uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
