@@ -7,6 +7,11 @@ on:
     paths:
       - ".github/workflows/translate-readme.yml"
       - "README.md"
+
+permissions:
+  contents: write
+  repository-projects: write
+
 jobs:
   translate:
     runs-on: ubuntu-latest

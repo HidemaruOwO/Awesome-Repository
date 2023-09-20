@@ -4,16 +4,22 @@ on:
     types:
       - published
 
+permissions:
+  contents: write
+  repository-projects: write
+  actions: write
+  statuses: read
+
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
 
-    # Multi platfrom support
+    # Multi platform support
     # strategy:
-      # matrix:
-        # platform: [macos-latest, ubuntu-latest, windows-latest]
-      # fail-fast: false
+    # matrix:
+    # platform: [macos-latest, ubuntu-latest, windows-latest]
+    # fail-fast: false
 
     # runs-on: ${{ matrix.platform }}
 
