@@ -8,10 +8,30 @@ on:
     branches:
       - "develop"
 
+permissions:
+  contents: write
+  repository-projects: write
+  actions: write
+  statuses: read
+
 jobs:
   format:
     runs-on: ubuntu-latest
     steps:
+      - name: Wait Tests
+        id: test_result
+        uses: Sibz/await-status-action@v1.0.1
+        with:
+          contexts: test-status
+          authToken: ${{ secrets.GITHUB_TOKEN }}
+          timeout: 30
+      - name: Check Test Result
+        if: steps.test_result.outputs.result != 'success'
+        run: |
+          echo "feiled ${{ steps.test_result.outputs.failedCheckNames }}"
+          echo "status ${{ steps.test_result.outputs.failedCheckStates }}"
+          exit 1
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -22,7 +42,7 @@ jobs:
         shell: bash
         id: extract_branch
       - name: Setup
-        run: echo "Set up your programing language here."
+        run: echo "Set up your programming language here."
         # uses: actions/setup-go@v2
       - name: Install formatter
         run: echo "Install formatter (Example; npm install prettier)"

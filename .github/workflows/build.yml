@@ -2,12 +2,18 @@ name: "Build"
 on:
   push:
 
+permissions:
+  contents: write
+  repository-projects: write
+  actions: write
+  statuses: read
+
 jobs:
   release:
     name: Release
     # runs-on: ubuntu-latest
 
-    # Multi platfrom support
+    # Multi platform support
     strategy:
       matrix:
         platform: [macos-latest, ubuntu-latest, windows-latest]
@@ -18,7 +24,7 @@ jobs:
     steps:
       - name: Wait Tests
         id: test_result
-        uses: Sibz/await-status-action@v1.0.1
+        uses: Sibz/await-status-action@v1
         with:
           contexts: test-status
           authToken: ${{ secrets.GITHUB_TOKEN }}
