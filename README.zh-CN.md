@@ -70,7 +70,7 @@ go build ../build.sh
 -   Dependabot 设置
     -   `.github/dependabot.yml`的`package-ecosystem`将值设置为（例如 npm、yarn、pip）
 -   CodeQL 设置
-    -   <https://dev.classmethod.jp/articles/github-code-scanning/>
+    -   [HTTPS://Dev.class method.键盘/articles/GitHub-code-scanning/](https://dev.classmethod.jp/articles/github-code-scanning/)
     -   [支持的语言](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/)
 
 </details>
