@@ -22,10 +22,19 @@ jobs:
           exit 1
       - name: Set Check Status Success
         uses: Sibz/github-status-action@v1
+        if: steps.test.outputs.result != 'success'
         with:
           context: test-status
           authToken: ${{ secrets.GITHUB_TOKEN }}
           state: success
-      - name: fail
+      - name: Set Check Status Failure
+        uses: Sibz/github-status-action@v1
+        if: steps.test.outputs.result != 'failure'
+        with:
+          context: test-status
+          authToken: ${{ secrets.GITHUB_TOKEN }}
+          state: failure
+
+      - name: Fail
         uses: Sibz/action-always-fail@v1.0.1
         if: steps.test.outputs.result != 'failure'
