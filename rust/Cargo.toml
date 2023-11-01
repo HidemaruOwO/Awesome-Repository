@@ -1,0 +1,20 @@
+[package]
+name = "my-app"
+version = "0.1.0"
+edition = "2021"
+default-run = "my-app"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "my-app"
+path = "src/main.rs"
+
+##--- IMPORTANT ---##
+[[bin]]
+name = "version"
+path = "scripts/version.rs"
+
+[[bin]]
+name = "name"
+path = "scripts/name.rs"
+######################
