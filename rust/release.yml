@@ -1,0 +1,121 @@
+name: Release
+on:
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
+  repository-projects: write
+  actions: write
+  statuses: read
+
+jobs:
+  release:
+    name: Release
+    # runs-on: ubuntu-latest
+
+    # Multi platform support
+    strategy:
+      matrix:
+        target:
+          - x86_64-unknown-linux-musl
+          - x86_64-pc-windows-msvc
+          - x86_64-apple-darwin
+        include:
+          - target: x86_64-unknown-linux-musl
+            os: ubuntu-latest
+          - target: x86_64-pc-windows-msvc
+            os: windows-latest
+          - target: x86_64-apple-darwin
+            os: macos-latest
+      fail-fast: false
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Wait Tests
+        id: test_result
+        uses: Sibz/await-status-action@v1.0.1
+        with:
+          contexts: test-status
+          authToken: ${{ secrets.GITHUB_TOKEN }}
+          timeout: 30
+      - name: Check Test Result
+        if: steps.test_result.outputs.result != 'success'
+        run: |
+          echo "feiled ${{ steps.test_result.outputs.failedCheckNames }}"
+          echo "status ${{ steps.test_result.outputs.failedCheckStates }}"
+          exit 1
+      - name: Checkout Sources
+        uses: actions/checkout@v3
+        with:
+          ssh-key: ${{ secrets.PRIVATE_REPO_SSH_KEY }}
+      - name: Install musl tools
+        if: matrix.target == 'x86_64-unknown-linux-musl'
+        run: |
+          sudo apt install -qq -y musl-tools --no-install-recommends
+      - name: Setup Rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          target: ${{ matrix.target }}
+          override: true
+      - name: Build
+        uses: actions-rs/cargo@v1
+        with:
+          use-cross: false
+          command: build
+          args: --release --target=${{ matrix.target }}
+
+      - name: Check release Directory for Linux
+        if: matrix.target == 'x86_64-unknown-linux-musl'
+        run: |
+          ls target/${{ matrix.target }}/release/
+      - name: Check release Directory for windows
+        if: matrix.target == 'x86_64-pc-windows-msvc'
+        run: |
+          dir target/${{ matrix.target }}/release/
+      - name: Check release Directory for macOS
+        if: matrix.target == 'x86_64-apple-darwin'
+        run: |
+          ls target/${{ matrix.target }}/release/
+
+      - name: Set Env on Windows
+        id: sew
+        if: ${{ matrix.os == 'windows-latest' }}
+        run: |
+          echo "PKG_NAME=$(target/${{ matrix.target }}/release/name)" >> $env:GITHUB_ENV
+          echo "PKG_VERSION=$(target/${{ matrix.target }}/release/version)" >> $env:GITHUB_ENV
+      - name: Set Env on Other
+        if: "!(steps.sew.conclusion == 'success')"
+        run: |
+          echo "PKG_NAME=$(target/${{ matrix.target }}/release/name)" >> $GITHUB_ENV
+          echo "PKG_VERSION=$(target/${{ matrix.target }}/release/version)" >> $GITHUB_ENV
+
+      - name: Compress binary on Windows
+        id: cbw
+        if: ${{ matrix.os == 'windows-latest' }}
+        uses: a7ul/tar-action@v1.1.2
+        with:
+          command: c
+          cwd: target/${{ matrix.target }}/release/
+          files: |
+            ./${{ env.PKG_NAME }}.exe
+          outPath: ${{ env.PKG_NAME }}_${{ env.PKG_VERSION }}_${{ matrix.target }}.tar.gz
+      - name: Compress binary on Other
+        if: "!(steps.cbw.conclusion == 'success')"
+        uses: a7ul/tar-action@v1.1.2
+        with:
+          command: c
+          cwd: target/${{ matrix.target }}/release/
+          files: |
+            ./${{ env.PKG_NAME }}
+          outPath: ${{ env.PKG_NAME }}_${{ env.PKG_VERSION }}_${{ matrix.target }}.tar.gz
+
+      - name: Upload release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: ${{ env.PKG_NAME }}_${{ env.PKG_VERSION }}_${{ matrix.target }}.tar.gz
